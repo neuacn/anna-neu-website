@@ -1,11 +1,11 @@
 h1{
-  align-self: center;
+  text-align: center;
   color: green;
 }
 p {
   transition: ease;
   font-family: monospace;
-  align-content: center;
+  text-align: center;
   font-size: 50px;
   color: red;
 }
