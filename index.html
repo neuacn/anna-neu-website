@@ -5,24 +5,20 @@
     <title>Anna Neu</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-          $("button").click(function(){
-          $("p").hide();
-        });
-      });
+<script>
+function myFunction() {
+  document.getElementByID("demo").innerHTML = "View Calendar"
+}
     </script>
   </head>
-  <body align="center">
+  <body>
     <h1><b>Anna Neu Improv Coaching</b></h1>
     <p>Book your Practice Today!</p>
     <ol>
       <li> Indie Team Coaching </li>
       <li> Corporate Workshops</li>
       <li> Dance Improv Electives </li>
-
     </ol>
-    <button type="button" name="button">Click to Book Coaching</button>
+    <button type="button" onclick="myFunction()">Click to Book Coaching</button>
   </body>
 </html>
