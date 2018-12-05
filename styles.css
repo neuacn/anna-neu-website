@@ -9,18 +9,12 @@ p {
   font-size: 50px;
   color: red;
 }
-
-button {
-  align-content: center;
-  border-radius: 7px;
-  font-family: fantasy;
-  font-size: 40px;
-  padding: 15px;
-  color: blue;
-
+a {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
 }
 body {
   background-color: lightblue;
-  background-image:url("ugradient_bg.pngrl");
-
 }
