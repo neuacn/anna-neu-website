@@ -7,11 +7,10 @@ h1{
   color: green;
 
 }
-p {
+h2 {
   transition: ease;
   font-family: monospace;
   text-align: center;
-  font-size: 50px;
   color: red;
 }
 a {
@@ -67,3 +66,4 @@ div.desc {
   display: table;
   clear: both;
 }
+p.double {border-style: double;}
