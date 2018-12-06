@@ -66,4 +66,6 @@ div.desc {
   display: table;
   clear: both;
 }
-p.double {border-style: double;}
+p {
+  border-style: double;
+}
