@@ -11,7 +11,8 @@ h2 {
   transition: ease;
   font-family: monospace;
   text-align: center;
-  color: red;
+  color: Blue;
+  background-color: yellow;
 }
 a {
   border-top-style: dotted;
